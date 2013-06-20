@@ -1,0 +1,427 @@
+Tjsoncpp
+v5
+r1
+cCheck dependencies
+cSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/jsoncpp Versions/Current/jsoncpp
+cSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/Current A
+cSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Resources Versions/Current/Resources
+cSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/PrivateHeaders Versions/Current/PrivateHeaders
+cProcessInfoPlistFile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/Info.plist Info.plist
+cProcessPCH++ /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.pth jsoncpp-objc.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.pth jsoncpp-objc.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp normal x86_64
+cLd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp normal i386
+cCreateUniversalBinary /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp normal "x86_64 i386"
+cGenerateDSYMFile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework.dSYM /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp
+cCpHeader jsoncpp-objc.pch build/Release/jsoncpp.framework/Versions/A/PrivateHeaders/jsoncpp-objc.pch
+cCpResource src/json_valueiterator.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_valueiterator.inl
+cCpResource src/json_internalarray.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_internalarray.inl
+cCpResource src/json_internalmap.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_internalmap.inl
+cTouch /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051AFD68C00000000000001E5
+t1370478220
+s485
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework.dSYM
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/PrivateHeaders
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Resources
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/PrivateHeaders/jsoncpp-objc.pch
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/Info.plist
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/json_internalarray.inl
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/json_internalmap.inl
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/json_valueiterator.inl
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/Current
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/jsoncpp
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.o
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.o
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.o
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList
+c0000000051BB66450000000000000167
+t1371235909
+s359
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.o
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.o
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.o
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp
+t2
+s0
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp.LinkFileList
+c0000000051BB6645000000000000016D
+t1371235909
+s365
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/jsoncpp-objc.pch
+c0000000051A524C3000000000000008E
+t1369777347
+s142
+i<Cocoa/Cocoa.h>
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_internalarray.inl
+c0000000051A524C3000000000000317D
+t1369777347
+s12669
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_internalmap.inl
+c0000000051A524C30000000000003FA4
+t1369777347
+s16292
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp
+c0000000051A524C300000000000051EC
+t1369777347
+s20972
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp
+c0000000051A524C3000000000000988B
+t1369777347
+s39051
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_valueiterator.inl
+c0000000051A524C30000000000001CCC
+t1369777347
+s7372
+
+N/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp
+c0000000051A524C300000000000051F5
+t1369777347
+s20981
+
+N/var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.pth
+t2
+s0
+
+N/var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051A524C300000000000003B7
+t1369777347
+s951
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf9a1aac59d6bb741^d045c7c59d6bb741^---0#1#0#--18"Check dependencies36"AD0C2346-5CB6-4C86-BC48-115D251DF823-
+
+CCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928709.853811
+e392928711.709415
+r1
+xCompileC
+xbuild/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.o
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp0bb5dac59d6bb741^a29bb5c79d6bb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp0000000000000000^2718"CompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.o src/json_reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/i386 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -include /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch -MMD -MT dependencies -MF /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.d --serialize-diagnostics /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_reader.o36"F8F0C09A-B2F8-43C2-B5DC-0C2CC7D310AB-
+
+CCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928709.854262
+e392928711.815802
+r1
+xCompileC
+xbuild/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.o
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp:1574:35: warning: implicit conversion loses integer precision: 'unsigned long long' to 'UInt' (aka 'unsigned int') [-Wshorten-64-to-32]
+o               index = index * 10 + Value::UInt(*current - '0');
+o                     ~ ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp49d5dac59d6bb741^4ce2d0c79d6bb741^-349"/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp:1574:35: warning: implicit conversion loses integer precision: 'unsigned long long' to 'UInt' (aka 'unsigned int') [-Wshorten-64-to-32]               index = index * 10 + Value::UInt(*current - '0');                     ~ ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@96"Implicit conversion loses integer precision: 'unsigned long long' to 'UInt' (aka 'unsigned int')-392928711#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^1573#34#1573#34#35578#0#14"Semantic Issue2(3@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^1573#23#1573#63#35567#39#3@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^1573#21#1573#22#35565#0#-0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^2712"CompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.o src/json_value.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/i386 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -include /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch -MMD -MT dependencies -MF /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.d --serialize-diagnostics /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_value.o36"F3049B41-3F5A-4978-9338-B530E3983F42-
+
+CCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928711.732970
+e392928712.687341
+r1
+xCompileC
+xbuild/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.o
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp:456:29: warning: implicit conversion loses integer precision: 'unsigned long long' to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32]
+o      childValues_.reserve( size );
+o      ~~~~~~~~~~~~          ^~~~
+o/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp:732:29: warning: implicit conversion loses integer precision: 'unsigned long long' to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32]
+o      childValues_.reserve( size );
+o      ~~~~~~~~~~~~          ^~~~
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp45d5bbc79d6bb741^baf4afc89d6bb741^-570"/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp:456:29: warning: implicit conversion loses integer precision: 'unsigned long long' to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32]      childValues_.reserve( size );      ~~~~~~~~~~~~          ^~~~/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp:732:29: warning: implicit conversion loses integer precision: 'unsigned long long' to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32]      childValues_.reserve( size );      ~~~~~~~~~~~~          ^~~~2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@102"Implicit conversion loses integer precision: 'unsigned long long' to 'size_type' (aka 'unsigned long')-392928712#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^455#28#455#28#11078#0#14"Semantic Issue2(3@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^455#28#455#32#11078#0#3@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^455#6#455#18#11056#0#-2@102"Implicit conversion loses integer precision: 'unsigned long long' to 'size_type' (aka 'unsigned long')-392928712#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^731#28#731#28#17967#0#14"Semantic Issue2(3@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^731#28#731#32#17967#0#3@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^731#6#731#18#17945#0#-0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^2718"CompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.o src/json_writer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/i386 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -include /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch -MMD -MT dependencies -MF /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.d --serialize-diagnostics /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/json_writer.o36"C8968CA1-A5B7-49EF-8D36-F2A93418C584-
+
+CCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928709.854801
+e392928711.731648
+r1
+xCompileC
+xbuild/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.o
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp17f4dac59d6bb741^4d4cbbc79d6bb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp0000000000000000^2732"CompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.o src/json_reader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/x86_64 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -include /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch -MMD -MT dependencies -MF /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.d --serialize-diagnostics /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_reader.cpp -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_reader.o36"B370E4CE-5101-4A2C-B483-4883A20D5A74-
+
+CCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928709.855007
+e392928711.830376
+r1
+xCompileC
+xbuild/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.o
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp:1574:35: warning: implicit conversion loses integer precision: 'unsigned long long' to 'UInt' (aka 'unsigned int') [-Wshorten-64-to-32]
+o               index = index * 10 + Value::UInt(*current - '0');
+o                     ~ ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp7d03dbc59d6bb741^6892d4c79d6bb741^-349"/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp:1574:35: warning: implicit conversion loses integer precision: 'unsigned long long' to 'UInt' (aka 'unsigned int') [-Wshorten-64-to-32]               index = index * 10 + Value::UInt(*current - '0');                     ~ ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@96"Implicit conversion loses integer precision: 'unsigned long long' to 'UInt' (aka 'unsigned int')-392928711#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^1573#34#1573#34#35578#0#14"Semantic Issue2(3@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^1573#23#1573#63#35567#39#3@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^1573#21#1573#22#35565#0#-0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp0000000000000000^2726"CompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.o src/json_value.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/x86_64 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -include /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch -MMD -MT dependencies -MF /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.d --serialize-diagnostics /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_value.cpp -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_value.o36"6B3A747E-62CB-4FE0-934E-1A49DBA94619-
+
+CCompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928711.710647
+e392928712.654851
+r1
+xCompileC
+xbuild/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.o
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp9a24b6c79d6bb741^77a3a7c89d6bb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp0000000000000000^2732"CompileC build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.o src/json_writer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/x86_64 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -include /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch -MMD -MT dependencies -MF /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.d --serialize-diagnostics /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_writer.cpp -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/json_writer.o36"FCE2F4C9-0FE8-455C-9FCC-38FCBDA08B49-
+
+CCpHeader jsoncpp-objc.pch build/Release/jsoncpp.framework/Versions/A/PrivateHeaders/jsoncpp-objc.pch
+s392928712.872627
+e392928712.876220
+r1
+xCpHeader
+xjsoncpp-objc.pch
+xbuild/Release/jsoncpp.framework/Versions/A/PrivateHeaders/jsoncpp-objc.pch
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Release/jsoncpp.framework/Versions/A/PrivateHeaders/jsoncpp-objc.pch0188dfc89d6bb741^b14fe0c89d6bb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/PrivateHeaders/jsoncpp-objc.pch000000000080d041^553"CpHeader jsoncpp-objc.pch build/Release/jsoncpp.framework/Versions/A/PrivateHeaders/jsoncpp-objc.pch    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/jsoncpp-objc.pch /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/PrivateHeaders36"4626D04B-6F4E-408A-9326-970342AEE58E-
+
+CCpResource src/json_internalarray.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_internalarray.inl
+s392928712.884684
+e392928712.888380
+r1
+xCpResource
+xsrc/json_internalarray.inl
+xbuild/Release/jsoncpp.framework/Versions/A/Resources/json_internalarray.inl
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Release/jsoncpp.framework/Versions/A/Resources/json_internalarray.inl0a9ee2c89d6bb741^766de3c89d6bb741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/json_internalarray.inl000000000080d041^571"CpResource src/json_internalarray.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_internalarray.inl    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_internalarray.inl /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources36"C7E91535-A8FF-45D9-889B-5648A34D9475-
+
+CCpResource src/json_internalmap.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_internalmap.inl
+s392928712.884694
+e392928712.887342
+r1
+xCpResource
+xsrc/json_internalmap.inl
+xbuild/Release/jsoncpp.framework/Versions/A/Resources/json_internalmap.inl
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Release/jsoncpp.framework/Versions/A/Resources/json_internalmap.inlab98e2c89d6bb741^d828e3c89d6bb741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/json_internalmap.inl000000000080d041^565"CpResource src/json_internalmap.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_internalmap.inl    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_internalmap.inl /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources36"BE4D2B05-2186-4E3B-B9C6-0639BCC12E13-
+
+CCpResource src/json_valueiterator.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_valueiterator.inl
+s392928712.884667
+e392928712.889546
+r1
+xCpResource
+xsrc/json_valueiterator.inl
+xbuild/Release/jsoncpp.framework/Versions/A/Resources/json_valueiterator.inl
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Release/jsoncpp.framework/Versions/A/Resources/json_valueiterator.inld7a5e2c89d6bb741^bfb9e3c89d6bb741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/json_valueiterator.inl000000000080d041^571"CpResource src/json_valueiterator.inl build/Release/jsoncpp.framework/Versions/A/Resources/json_valueiterator.inl    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/src/json_valueiterator.inl /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources36"3E372E6F-FD58-4A54-B167-CE4298DEF888-
+
+CCreateUniversalBinary /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp normal "x86_64 i386"
+s392928712.734159
+e392928712.747267
+r1
+xCreateUniversalBinary
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp
+xnormal
+xx86_64 i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Create universal binary /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp562abcc89d6bb741^c74bbfc89d6bb741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp000000000080d041^495"CreateUniversalBinary build/Release/jsoncpp.framework/Versions/A/jsoncpp normal "x86_64 i386"    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    lipo -create /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp -output /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp36"FFE5195C-2D38-4F58-9DCA-BCD198DE5096-
+
+CGenerateDSYMFile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework.dSYM /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp
+s392928712.754273
+e392928712.863914
+r1
+xGenerateDSYMFile
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework.dSYM
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Generate /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework.dSYM912bc1c89d6bb741^f228ddc89d6bb741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework.dSYM000000000080d041^435"GenerateDSYMFile build/Release/jsoncpp.framework.dSYM build/Release/jsoncpp.framework/Versions/A/jsoncpp    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/jsoncpp -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework.dSYM36"A86488F3-09B8-4C38-AF63-A42DB2F593DE-
+
+CLd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp normal i386
+s392928712.694098
+e392928712.727326
+r1
+xLd
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Link /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncppe8c1b1c89d6bb741^a531bac89d6bb741^---0#0#0#--953"Ld build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp normal i386    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -filelist /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList -install_name /Library/Frameworks/jsoncpp.framework/Versions/A/jsoncpp -mmacosx-version-min=10.7 -stdlib=libc++ -single_module -compatibility_version 1 -current_version 1 -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp36"70C16847-B83D-4B8F-A7D7-F9D6A20603FE-
+
+CLd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp normal x86_64
+s392928712.661717
+e392928712.685371
+r1
+xLd
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Link /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp7d79a9c89d6bb741^f373afc89d6bb741^---0#0#0#--963"Ld build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp normal x86_64    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release -filelist /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp.LinkFileList -install_name /Library/Frameworks/jsoncpp.framework/Versions/A/jsoncpp -mmacosx-version-min=10.7 -stdlib=libc++ -single_module -compatibility_version 1 -current_version 1 -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/Objects-normal/x86_64/jsoncpp36"D713105E-6FD7-470F-912B-EF3C93BB2758-
+
+CProcessInfoPlistFile /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/Info.plist Info.plist
+s392928709.816307
+e392928709.819774
+r1
+xProcessInfoPlistFile
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist8812d1c59d6bb741^10ebd1c59d6bb741^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/Info.plist0000000000000000^336"ProcessInfoPlistFile build/Release/jsoncpp.framework/Versions/A/Resources/Info.plist Info.plist    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/A/Resources/Info.plist36"F1701818-1530-454F-9645-E3A42DCF7347-
+
+CProcessPCH++ /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.pth jsoncpp-objc.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928709.827815
+e392928709.848556
+r1
+xProcessPCH++
+x/var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.pth
+xjsoncpp-objc.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile jsoncpp-objc.pch2503d4c59d6bb741^a741d9c59d6bb741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/jsoncpp-objc.pch0000000000000000^2755"ProcessPCH++ /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.pth jsoncpp-objc.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/x86_64 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release --serialize-diagnostics /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/jsoncpp-objc.pch -o /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.pth -MMD -MT dependencies -MF /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-bltbfbthxwycptepvdosolqacwdv/jsoncpp-objc.pch.d36"405D311C-F724-4821-A11F-164E077B78E3-
+
+CProcessPCH++ /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.pth jsoncpp-objc.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s392928709.827819
+e392928709.846772
+r1
+xProcessPCH++
+x/var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.pth
+xjsoncpp-objc.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile jsoncpp-objc.pchbb0bd4c59d6bb741^5113d9c59d6bb741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/jsoncpp-objc.pch0000000000000000^2749"ProcessPCH++ /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.pth jsoncpp-objc.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-generated-files.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-own-target-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-all-target-headers.hmap -iquote /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/jsoncpp-project-headers.hmap -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/include -Iinclude -Iinclude/json -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources/i386 -I/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Release/jsoncpp.build/DerivedSources -F/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release --serialize-diagnostics /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.dia -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/jsoncpp-objc.pch -o /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.pth -MMD -MT dependencies -MF /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-gllscbbtvblguxgvunmalfukwxnj/jsoncpp-objc.pch.d36"94AC0949-4F44-4711-B5DF-82AC06744B6D-
+
+CSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/PrivateHeaders Versions/Current/PrivateHeaders
+s392928709.801514
+e392928709.808136
+r1
+xSymLink
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/PrivateHeaders
+xVersions/Current/PrivateHeaders
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Process /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/PrivateHeaders213dcdc59d6bb741^00e2cec59d6bb741^---0#0#0#--277"SymLink build/Release/jsoncpp.framework/PrivateHeaders Versions/Current/PrivateHeaders    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    /bin/ln -sf Versions/Current/PrivateHeaders /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/PrivateHeaders36"6BBF648D-FCED-4D77-A4FA-C01D385AB3FB-
+
+CSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Resources Versions/Current/Resources
+s392928709.787163
+e392928709.797129
+r1
+xSymLink
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Resources
+xVersions/Current/Resources
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Process /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Resourceseeb4c9c59d6bb741^9510ccc59d6bb741^---0#0#0#--257"SymLink build/Release/jsoncpp.framework/Resources Versions/Current/Resources    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    /bin/ln -sf Versions/Current/Resources /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Resources36"7A6383EC-911E-403A-AD08-0A8DC294730F-
+
+CSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/Current A
+s392928709.787161
+e392928709.794930
+r1
+xSymLink
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/Current
+xA
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Process /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/Current42b5c9c59d6bb741^2b86cbc59d6bb741^---0#0#0#--221"SymLink build/Release/jsoncpp.framework/Versions/Current A    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    /bin/ln -sf A /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/Versions/Current36"A48B12B4-37FA-472D-A765-F94ACDF7F19A-
+
+CSymLink /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/jsoncpp Versions/Current/jsoncpp
+s392928709.787152
+e392928709.795755
+r1
+xSymLink
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/jsoncpp
+xVersions/Current/jsoncpp
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Process /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/jsoncppeeb4c9c59d6bb741^1bb8cbc59d6bb741^---0#0#0#--249"SymLink build/Release/jsoncpp.framework/jsoncpp Versions/Current/jsoncpp    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    /bin/ln -sf Versions/Current/jsoncpp /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework/jsoncpp36"A1B2D571-4C31-4D30-BB28-39007FA284C1-
+
+CTouch /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework
+s392928712.897795
+e392928712.903565
+r1
+xTouch
+x/Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Touch /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework7cede5c89d6bb741^d74fe7c89d6bb741^---0#0#0#--187"Touch build/Release/jsoncpp.framework    cd /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp    /usr/bin/touch -c /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Release/jsoncpp.framework36"3B57602D-9A71-4E65-80E2-44825F449BF8-
+

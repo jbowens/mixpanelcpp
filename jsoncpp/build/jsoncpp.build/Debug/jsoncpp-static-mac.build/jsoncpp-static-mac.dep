@@ -1,0 +1,5 @@
+ffffffffffffffffffffffffffffffff a00cb2f3ed3bad1bea3ec89d69fa017c ffffffffffffffffffffffffffffffff 0 /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/Debug/libjsoncpp-static-mac.a
+ffffffffffffffffffffffffffffffff 069b075d9ff03765153b56ad1ade1b42 ffffffffffffffffffffffffffffffff 0 /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Debug/jsoncpp-static-mac.build/Objects-normal/x86_64/json_value.o
+ffffffffffffffffffffffffffffffff 20f1689611e1cc62d3f1e6341b9d95af ffffffffffffffffffffffffffffffff 0 /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Debug/jsoncpp-static-mac.build/Objects-normal/x86_64/json_reader.o
+ffffffffffffffffffffffffffffffff 633cd7d6986d7ed9f020d3fba9c4d726 ffffffffffffffffffffffffffffffff 0 /Users/aleclee/twitch/sdk/twitchsdk/jsoncpp/build/jsoncpp.build/Debug/jsoncpp-static-mac.build/Objects-normal/x86_64/json_writer.o
+00000000000af24f000000000000016b 3425e36c6f61ca6eac510789fb20a662 ffffffffffffffffffffffffffffffff 0 /var/folders/yq/vlrx5l2j1hd0jq0qswfkbxdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jsoncpp-objc-aupxtbmraaxeyubkairkdofomkdy/jsoncpp-objc.pch.pth

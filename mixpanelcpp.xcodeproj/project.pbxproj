@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90EBA4117738E82009D2B97 /* libjsoncpp-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C977973A17726C850019ED37 /* libjsoncpp-static.a */; };
+		C90EBA4217738E88009D2B97 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99B89DA17570DC000E916EF /* base64.cpp */; };
+		C90EBA4317738E88009D2B97 /* eventbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99B89DC17570DC000E916EF /* eventbuffer.cpp */; };
+		C90EBA4417738E95009D2B97 /* mp_concurrent_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = C94129D11757ED950087EDB0 /* mp_concurrent_queue.h */; };
+		C90EBA4517738E95009D2B97 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B89E217570DD200E916EF /* base64.h */; };
+		C90EBA4617738E95009D2B97 /* eventbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B89E317570DD200E916EF /* eventbuffer.h */; };
+		C90EBA4717738EF6009D2B97 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C926BB18175FB84F0018BD55 /* libcurl.dylib */; };
+		C977974517726CC70019ED37 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99B89DA17570DC000E916EF /* base64.cpp */; };
+		C977974617726CC70019ED37 /* eventbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99B89DC17570DC000E916EF /* eventbuffer.cpp */; };
+		C977974717726CD00019ED37 /* mp_concurrent_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = C94129D11757ED950087EDB0 /* mp_concurrent_queue.h */; };
+		C977974817726CD00019ED37 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B89E217570DD200E916EF /* base64.h */; };
+		C977974917726CD00019ED37 /* eventbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B89E317570DD200E916EF /* eventbuffer.h */; };
+		C977974A17726CDA0019ED37 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C926BB18175FB84F0018BD55 /* libcurl.dylib */; };
+		C977974B17726CE00019ED37 /* libjsoncpp-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C977973A17726C850019ED37 /* libjsoncpp-static.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90EBA3F17738E76009D2B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C977973417726C850019ED37 /* jsoncpp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E6E85F164216D6007F7B5D;
+			remoteInfo = "jsoncpp-static-mac";
+		};
+		C977973917726C850019ED37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C977973417726C850019ED37 /* jsoncpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45E6E860164216D6007F7B5D;
+			remoteInfo = "jsoncpp-static-mac";
+		};
+		C977973B17726C850019ED37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C977973417726C850019ED37 /* jsoncpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 928DBC4416A74E560046BD49;
+			remoteInfo = "jsoncpp-static-ios";
+		};
+		C977974C17726CE50019ED37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C977973417726C850019ED37 /* jsoncpp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E6E85F164216D6007F7B5D;
+			remoteInfo = "jsoncpp-static-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C90EBA3A17738E3C009D2B97 /* libmixpanelcpp-dynamic.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libmixpanelcpp-dynamic.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C926BB18175FB84F0018BD55 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		C94129D11757ED950087EDB0 /* mp_concurrent_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp_concurrent_queue.h; sourceTree = "<group>"; };
+		C977973417726C850019ED37 /* jsoncpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jsoncpp.xcodeproj; path = jsoncpp/jsoncpp.xcodeproj; sourceTree = "<group>"; };
+		C977974117726CB10019ED37 /* libmixpanelcpp-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libmixpanelcpp-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99B89DA17570DC000E916EF /* base64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base64.cpp; sourceTree = "<group>"; };
+		C99B89DC17570DC000E916EF /* eventbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventbuffer.cpp; sourceTree = "<group>"; };
+		C99B89E217570DD200E916EF /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		C99B89E317570DD200E916EF /* eventbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventbuffer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90EBA3717738E3C009D2B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90EBA4717738EF6009D2B97 /* libcurl.dylib in Frameworks */,
+				C90EBA4117738E82009D2B97 /* libjsoncpp-static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C977973E17726CB10019ED37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C977974B17726CE00019ED37 /* libjsoncpp-static.a in Frameworks */,
+				C977974A17726CDA0019ED37 /* libcurl.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C977973517726C850019ED37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C977973A17726C850019ED37 /* libjsoncpp-static.a */,
+				C977973C17726C850019ED37 /* libjsoncpp-static-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99B89BD17570DA600E916EF = {
+			isa = PBXGroup;
+			children = (
+				C977973417726C850019ED37 /* jsoncpp.xcodeproj */,
+				C926BB18175FB84F0018BD55 /* libcurl.dylib */,
+				C99B89C817570DA600E916EF /* mixpanelcpp */,
+				C99B89C717570DA600E916EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99B89C717570DA600E916EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C977974117726CB10019ED37 /* libmixpanelcpp-static.a */,
+				C90EBA3A17738E3C009D2B97 /* libmixpanelcpp-dynamic.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99B89C817570DA600E916EF /* mixpanelcpp */ = {
+			isa = PBXGroup;
+			children = (
+				C99B89E017570DD200E916EF /* include */,
+				C99B89D817570DC000E916EF /* src */,
+			);
+			path = mixpanelcpp;
+			sourceTree = "<group>";
+		};
+		C99B89D817570DC000E916EF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C99B89DA17570DC000E916EF /* base64.cpp */,
+				C99B89DC17570DC000E916EF /* eventbuffer.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C99B89E017570DD200E916EF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C99B89E117570DD200E916EF /* mixpanel */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C99B89E117570DD200E916EF /* mixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				C94129D11757ED950087EDB0 /* mp_concurrent_queue.h */,
+				C99B89E217570DD200E916EF /* base64.h */,
+				C99B89E317570DD200E916EF /* eventbuffer.h */,
+			);
+			path = mixpanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C90EBA3817738E3C009D2B97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90EBA4417738E95009D2B97 /* mp_concurrent_queue.h in Headers */,
+				C90EBA4517738E95009D2B97 /* base64.h in Headers */,
+				C90EBA4617738E95009D2B97 /* eventbuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C977973F17726CB10019ED37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C977974717726CD00019ED37 /* mp_concurrent_queue.h in Headers */,
+				C977974817726CD00019ED37 /* base64.h in Headers */,
+				C977974917726CD00019ED37 /* eventbuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C90EBA3917738E3C009D2B97 /* mixpanelcpp-dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90EBA3E17738E3D009D2B97 /* Build configuration list for PBXNativeTarget "mixpanelcpp-dynamic" */;
+			buildPhases = (
+				C90EBA3617738E3C009D2B97 /* Sources */,
+				C90EBA3717738E3C009D2B97 /* Frameworks */,
+				C90EBA3817738E3C009D2B97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90EBA4017738E76009D2B97 /* PBXTargetDependency */,
+			);
+			name = "mixpanelcpp-dynamic";
+			productName = "mixpanelcpp-dynamic";
+			productReference = C90EBA3A17738E3C009D2B97 /* libmixpanelcpp-dynamic.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		C977974017726CB10019ED37 /* mixpanelcpp-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C977974217726CB10019ED37 /* Build configuration list for PBXNativeTarget "mixpanelcpp-static" */;
+			buildPhases = (
+				C977973D17726CB10019ED37 /* Sources */,
+				C977973E17726CB10019ED37 /* Frameworks */,
+				C977973F17726CB10019ED37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C977974D17726CE50019ED37 /* PBXTargetDependency */,
+			);
+			name = "mixpanelcpp-static";
+			productName = mixpanelcpplib;
+			productReference = C977974117726CB10019ED37 /* libmixpanelcpp-static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99B89BE17570DA600E916EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TwitchTV;
+			};
+			buildConfigurationList = C99B89C117570DA600E916EF /* Build configuration list for PBXProject "mixpanelcpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C99B89BD17570DA600E916EF;
+			productRefGroup = C99B89C717570DA600E916EF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C977973517726C850019ED37 /* Products */;
+					ProjectRef = C977973417726C850019ED37 /* jsoncpp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C977974017726CB10019ED37 /* mixpanelcpp-static */,
+				C90EBA3917738E3C009D2B97 /* mixpanelcpp-dynamic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C977973A17726C850019ED37 /* libjsoncpp-static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = "libjsoncpp-static.a";
+			path = "libjsoncpp-static-mac.a";
+			remoteRef = C977973917726C850019ED37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C977973C17726C850019ED37 /* libjsoncpp-static-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsoncpp-static-ios.a";
+			remoteRef = C977973B17726C850019ED37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90EBA3617738E3C009D2B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90EBA4217738E88009D2B97 /* base64.cpp in Sources */,
+				C90EBA4317738E88009D2B97 /* eventbuffer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C977973D17726CB10019ED37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C977974517726CC70019ED37 /* base64.cpp in Sources */,
+				C977974617726CC70019ED37 /* eventbuffer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90EBA4017738E76009D2B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "jsoncpp-static-mac";
+			targetProxy = C90EBA3F17738E76009D2B97 /* PBXContainerItemProxy */;
+		};
+		C977974D17726CE50019ED37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "jsoncpp-static-mac";
+			targetProxy = C977974C17726CE50019ED37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C90EBA3B17738E3D009D2B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/jsoncpp/include";
+				PRODUCT_NAME = "mixpanelcpp-dynamic";
+			};
+			name = Debug;
+		};
+		C90EBA3C17738E3D009D2B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/jsoncpp/include";
+				PRODUCT_NAME = "mixpanelcpp-dynamic";
+			};
+			name = Release;
+		};
+		C977974317726CB10019ED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/jsoncpp/include";
+				PRODUCT_NAME = "mixpanelcpp-static";
+			};
+			name = Debug;
+		};
+		C977974417726CB10019ED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/jsoncpp/include";
+				PRODUCT_NAME = "mixpanelcpp-static";
+			};
+			name = Release;
+		};
+		C99B89CD17570DA600E916EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C99B89CE17570DA600E916EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90EBA3E17738E3D009D2B97 /* Build configuration list for PBXNativeTarget "mixpanelcpp-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90EBA3B17738E3D009D2B97 /* Debug */,
+				C90EBA3C17738E3D009D2B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C977974217726CB10019ED37 /* Build configuration list for PBXNativeTarget "mixpanelcpp-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C977974317726CB10019ED37 /* Debug */,
+				C977974417726CB10019ED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99B89C117570DA600E916EF /* Build configuration list for PBXProject "mixpanelcpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B89CD17570DA600E916EF /* Debug */,
+				C99B89CE17570DA600E916EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99B89BE17570DA600E916EF /* Project object */;
+}

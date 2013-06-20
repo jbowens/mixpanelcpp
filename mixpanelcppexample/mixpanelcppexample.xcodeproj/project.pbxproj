@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95DB742177271AA007EE463 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C95DB741177271AA007EE463 /* libcurl.dylib */; };
+		C977975C17726E520019ED37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C977975B17726E520019ED37 /* main.cpp */; };
+		C981DD351773901E000C586E /* libmixpanelcpplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9192FB217726EF300299525 /* libmixpanelcpplib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90EBA4917738F06009D2B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9192FAA17726EF300299525 /* mixpanelcpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C90EBA3A17738E3C009D2B97;
+			remoteInfo = "mixpanelcpp-dynamic";
+		};
+		C90EBA4E17738F63009D2B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9192FAA17726EF300299525 /* mixpanelcpp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C977974017726CB10019ED37;
+			remoteInfo = "mixpanelcpp-static";
+		};
+		C9192FB117726EF300299525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9192FAA17726EF300299525 /* mixpanelcpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C977974117726CB10019ED37;
+			remoteInfo = mixpanelcpplib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C977975617726E520019ED37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9192FAA17726EF300299525 /* mixpanelcpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mixpanelcpp.xcodeproj; path = ../mixpanelcpp.xcodeproj; sourceTree = "<group>"; };
+		C95DB741177271AA007EE463 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		C977975817726E520019ED37 /* mixpanelcppexample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mixpanelcppexample; sourceTree = BUILT_PRODUCTS_DIR; };
+		C977975B17726E520019ED37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C977975517726E520019ED37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C981DD351773901E000C586E /* libmixpanelcpplib.a in Frameworks */,
+				C95DB742177271AA007EE463 /* libcurl.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9192FAB17726EF300299525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9192FB217726EF300299525 /* libmixpanelcpplib.a */,
+				C90EBA4A17738F06009D2B97 /* libmixpanelcpp-dynamic.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C977974F17726E520019ED37 = {
+			isa = PBXGroup;
+			children = (
+				C95DB741177271AA007EE463 /* libcurl.dylib */,
+				C9192FAA17726EF300299525 /* mixpanelcpp.xcodeproj */,
+				C977975A17726E520019ED37 /* mixpanelcppexample */,
+				C977975917726E520019ED37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C977975917726E520019ED37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C977975817726E520019ED37 /* mixpanelcppexample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C977975A17726E520019ED37 /* mixpanelcppexample */ = {
+			isa = PBXGroup;
+			children = (
+				C977975B17726E520019ED37 /* main.cpp */,
+			);
+			path = mixpanelcppexample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C977975717726E520019ED37 /* mixpanelcppexample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C977976117726E520019ED37 /* Build configuration list for PBXNativeTarget "mixpanelcppexample" */;
+			buildPhases = (
+				C977975417726E520019ED37 /* Sources */,
+				C977975517726E520019ED37 /* Frameworks */,
+				C977975617726E520019ED37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90EBA4F17738F63009D2B97 /* PBXTargetDependency */,
+			);
+			name = mixpanelcppexample;
+			productName = mixpanelcppexample;
+			productReference = C977975817726E520019ED37 /* mixpanelcppexample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C977975017726E520019ED37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TwitchTV;
+			};
+			buildConfigurationList = C977975317726E520019ED37 /* Build configuration list for PBXProject "mixpanelcppexample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C977974F17726E520019ED37;
+			productRefGroup = C977975917726E520019ED37 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C9192FAB17726EF300299525 /* Products */;
+					ProjectRef = C9192FAA17726EF300299525 /* mixpanelcpp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C977975717726E520019ED37 /* mixpanelcppexample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C90EBA4A17738F06009D2B97 /* libmixpanelcpp-dynamic.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = "libmixpanelcpp-dynamic.dylib";
+			remoteRef = C90EBA4917738F06009D2B97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C9192FB217726EF300299525 /* libmixpanelcpplib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = libmixpanelcpplib.a;
+			path = "libmixpanelcpp-static.a";
+			remoteRef = C9192FB117726EF300299525 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C977975417726E520019ED37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C977975C17726E520019ED37 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90EBA4F17738F63009D2B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mixpanelcpp-static";
+			targetProxy = C90EBA4E17738F63009D2B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C977975F17726E520019ED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C977976017726E520019ED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C977976217726E520019ED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../mixpanelcpp/include",
+					"$(SRCROOT)/../jsoncpp/include",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C977976317726E520019ED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../mixpanelcpp/include",
+					"$(SRCROOT)/../jsoncpp/include",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C977975317726E520019ED37 /* Build configuration list for PBXProject "mixpanelcppexample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C977975F17726E520019ED37 /* Debug */,
+				C977976017726E520019ED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C977976117726E520019ED37 /* Build configuration list for PBXNativeTarget "mixpanelcppexample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C977976217726E520019ED37 /* Debug */,
+				C977976317726E520019ED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C977975017726E520019ED37 /* Project object */;
+}
