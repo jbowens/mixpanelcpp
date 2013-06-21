@@ -110,34 +110,46 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_LIB|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_LIB|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_LIB|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_LIB|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>lib\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -146,13 +158,15 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)mixpanelcpp\include\mixpanel;$(SolutionDir)..\twitchsdk\libcurl\include;$(SolutionDir)..\twitchsdk\jsoncpp\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>$(ProjectDir)../twitchsdk/jsoncpp/lib;$(ProjectDir)../twitchsdk/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)/jsoncpp/lib;$(ProjectDir)/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libcurl-ttv.lib;jsoncpp_$(Configuration)_$(Platform).lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>
       </ModuleDefinitionFile>
@@ -165,7 +179,8 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)..\twitchsdk\libcurl\include;$(ProjectDir)..\twitchsdk\jsoncpp\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
@@ -189,12 +204,13 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)../twitchsdk/jsoncpp/include;$(SolutionDir)../twitchsdk/libcurl/include;$(SolutionDir)mixpanelcpp/include/mixpanel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>$(ProjectDir)../twitchsdk/jsoncpp/lib;$(ProjectDir)../twitchsdk/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)/jsoncpp/lib;$(ProjectDir)/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libcurl-ttv.lib;jsoncpp_$(Configuration)_$(Platform).lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>
       </ModuleDefinitionFile>
@@ -207,7 +223,8 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)..\twitchsdk\libcurl\include;$(ProjectDir)..\twitchsdk\jsoncpp\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -223,7 +240,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(SolutionDir)mixpanelcpp/include/mixpanel;$(SolutionDir)../twitchsdk/libcurl/include;$(SolutionDir)../twitchsdk/jsoncpp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
@@ -233,7 +250,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>
       </ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(ProjectDir)../twitchsdk/jsoncpp/lib;$(ProjectDir)../twitchsdk/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)/jsoncpp/lib;$(ProjectDir)/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libcurl-ttv.lib;jsoncpp_$(Configuration)_$(Platform).lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -243,7 +260,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)..\twitchsdk\libcurl\include;$(ProjectDir)..\twitchsdk\jsoncpp\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
@@ -260,7 +277,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(SolutionDir)mixpanelcpp/include/mixpanel;$(SolutionDir)../twitchsdk/libcurl/include;$(SolutionDir)../twitchsdk/jsoncpp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -270,7 +287,7 @@
       <ModuleDefinitionFile>
       </ModuleDefinitionFile>
       <AdditionalDependencies>libcurl-ttv.lib;jsoncpp_$(Configuration)_$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)../twitchsdk/jsoncpp/lib;$(ProjectDir)../twitchsdk/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)/jsoncpp/lib;$(ProjectDir)/libcurl/lib/$(PlatformName)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_LIB|x64'">
@@ -279,7 +296,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)..\twitchsdk\libcurl\include;$(ProjectDir)..\twitchsdk\jsoncpp\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)mixpanelcpp\include\mixpanel;$(ProjectDir)libcurl\include;$(ProjectDir)jsoncpp\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

@@ -46,7 +46,7 @@ namespace Mixpanel
          * @param[in] properties - A JSON object associating properties with the event.
          * @return - MP_ErrorCode specifying success enqueuing message or some type of failure.
          */
-        MP_ErrorCode TrackEvent(const char* eventName, Json::Value properties);
+        MP_ErrorCode TrackEvent(const char* eventName, const Json::Value &properties);
 
         /*
          * Tracks a Mixpanel event. Note that this does not deliver messages

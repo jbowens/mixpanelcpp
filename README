@@ -1,0 +1,15 @@
+Mixpanelcpp library
+
+This is a barebones Mixpanel library for C++. It is currently only able
+to track normal mixpanel events and is not setup for Mixpanel People.
+
+The library has two dependencies: libcurl and jsoncpp, which are provided in
+their respective subdirectories.
+
+This library has been tested in Windows and OSX, and Visual Studio / Xcode
+projects are provided. For OSX, the Running from Xcode should be enough
+to build the project. For Windows, you first need to build jsoncpp (you can use
+the provided build_jsoncpp.bat script).
+
+Example usage can be found in the mixpanelcppexample subdirectory.
+

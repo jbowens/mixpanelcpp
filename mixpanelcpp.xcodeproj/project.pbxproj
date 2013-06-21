@@ -303,6 +303,7 @@
 		C90EBA3B17738E3D009D2B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/jsoncpp/include";
 				PRODUCT_NAME = "mixpanelcpp-dynamic";
@@ -312,6 +313,7 @@
 		C90EBA3C17738E3D009D2B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/jsoncpp/include";
 				PRODUCT_NAME = "mixpanelcpp-dynamic";

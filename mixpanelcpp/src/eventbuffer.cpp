@@ -84,49 +84,38 @@ namespace Mixpanel
 
 
     MP_ErrorCode
-    EventBuffer::TrackEvent(const char* eventName, const char* propString)
-    {
-        assert(eventName);
-        assert(propString);
-
-        Json::Reader reader;
-        Json::Value properties;
-        if (reader.parse(propString, properties))
-        {
-            return TrackEvent(eventName, properties);
-        }
-        return MP_INVALID_PROPERTIES;
-    }
-
-
-    MP_ErrorCode
-    EventBuffer::TrackEvent(const char* eventName, Json::Value properties)
+    EventBuffer::TrackEvent(const char* eventName, const Json::Value &properties)
     {
         assert(eventName);
 
-        if (!properties.isObject())
+		// Note: the reason a reference to properties is passed in and then a copy is made/used
+		// instead of directly passing a copy of properties is to deal with the problem where
+		// the caller allocates and the callee deallocates, causing issues for debug builds.
+		Json::Value propsCopy = Json::Value(properties);
+
+        if (!propsCopy.isObject())
         {
             return MP_INVALID_PROPERTIES;
         }
 
         // add time/token properties if not yet present
-        if (!properties.isMember("time"))
+        if (!propsCopy.isMember("time"))
         {
             std::stringstream ss;
             std::time_t curTime = std::time(nullptr);
             ss << curTime;
-            properties["time"] = Json::Value(ss.str());
+            propsCopy["time"] = Json::Value(ss.str());
         }
 
-        if (!properties.isMember("token"))
+        if (!propsCopy.isMember("token"))
         {
-            properties["token"] = Json::Value(mProjectToken);
+            propsCopy["token"] = Json::Value(mProjectToken);
         }
 
         // construct actual JSON message to be sent
         Json::Value message;
         message["event"] = eventName;
-        message["properties"] = properties;
+        message["properties"] = propsCopy;
 
         // make sure is a valid length
         Json::FastWriter writer;

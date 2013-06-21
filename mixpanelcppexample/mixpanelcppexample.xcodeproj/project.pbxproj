@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C95DB742177271AA007EE463 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C95DB741177271AA007EE463 /* libcurl.dylib */; };
 		C977975C17726E520019ED37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C977975B17726E520019ED37 /* main.cpp */; };
-		C981DD351773901E000C586E /* libmixpanelcpplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9192FB217726EF300299525 /* libmixpanelcpplib.a */; };
+		C981DD351773901E000C586E /* libmixpanelcpp-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9192FB217726EF300299525 /* libmixpanelcpp-static.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,7 @@
 		C95DB741177271AA007EE463 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		C977975817726E520019ED37 /* mixpanelcppexample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mixpanelcppexample; sourceTree = BUILT_PRODUCTS_DIR; };
 		C977975B17726E520019ED37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C9DD12BA17739EB40081F00E /* libjsoncpp-static-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjsoncpp-static-mac.a"; path = "../../../Library/Developer/Xcode/DerivedData/mixpanelcppexample-fnzgtlhamzafymbontdgyetgfdvz/Build/Products/Debug/libjsoncpp-static-mac.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C981DD351773901E000C586E /* libmixpanelcpplib.a in Frameworks */,
+				C981DD351773901E000C586E /* libmixpanelcpp-static.a in Frameworks */,
 				C95DB742177271AA007EE463 /* libcurl.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +72,7 @@
 		C9192FAB17726EF300299525 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9192FB217726EF300299525 /* libmixpanelcpplib.a */,
+				C9192FB217726EF300299525 /* libmixpanelcpp-static.a */,
 				C90EBA4A17738F06009D2B97 /* libmixpanelcpp-dynamic.dylib */,
 			);
 			name = Products;
@@ -80,6 +81,7 @@
 		C977974F17726E520019ED37 = {
 			isa = PBXGroup;
 			children = (
+				C9DD12BA17739EB40081F00E /* libjsoncpp-static-mac.a */,
 				C95DB741177271AA007EE463 /* libcurl.dylib */,
 				C9192FAA17726EF300299525 /* mixpanelcpp.xcodeproj */,
 				C977975A17726E520019ED37 /* mixpanelcppexample */,
@@ -164,10 +166,9 @@
 			remoteRef = C90EBA4917738F06009D2B97 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C9192FB217726EF300299525 /* libmixpanelcpplib.a */ = {
+		C9192FB217726EF300299525 /* libmixpanelcpp-static.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			name = libmixpanelcpplib.a;
 			path = "libmixpanelcpp-static.a";
 			remoteRef = C9192FB117726EF300299525 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -258,6 +259,10 @@
 					"$(SRCROOT)/../mixpanelcpp/include",
 					"$(SRCROOT)/../jsoncpp/include",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/mixpanelcppexample-fnzgtlhamzafymbontdgyetgfdvz/Build/Products/Debug\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -268,6 +273,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../mixpanelcpp/include",
 					"$(SRCROOT)/../jsoncpp/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/mixpanelcppexample-fnzgtlhamzafymbontdgyetgfdvz/Build/Products/Debug\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
