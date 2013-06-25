@@ -16,7 +16,7 @@ to build the project. For Windows, you first need to build jsoncpp
 
     void TrackMixpanel()
     {
-        Mixpanel::EventBuffer *eb = new EventBuffer("MIXPANEL_PROJECT_TOKEN");
+        Mixpanel::EventBuffer *eb = new Mixpanel::EventBuffer("MIXPANEL_PROJECT_TOKEN");
         Mixpanel::MP_ErrorCode err;
         // You can construct Json objects and pass them to the library
         Json::Value properties = Json::Value(Json::objectValue);
