@@ -28,7 +28,7 @@ namespace Mixpanel
         MP_DEAD_DELIVERY_THREAD     = 1 << 1,
         MP_MESSAGE_TOO_LONG         = 1 << 2
     } MP_ErrorCode;
-    
+
     class IMPORT_EXPORT EventBuffer
     {
     public:
@@ -70,7 +70,7 @@ namespace Mixpanel
         std::thread mDeliveryThread;
 
     };
-    
+
     static const int MAX_BATCH_SIZE = 30;
     static const int MAX_SINGLE_MESSAGE_SIZE = 16384;
 }

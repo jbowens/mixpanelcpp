@@ -88,10 +88,10 @@ namespace Mixpanel
     {
         assert(eventName);
 
-		// Note: the reason a reference to properties is passed in and then a copy is made/used
-		// instead of directly passing a copy of properties is to deal with the problem where
-		// the caller allocates and the callee deallocates, causing issues for debug builds.
-		Json::Value propsCopy = Json::Value(properties);
+        // Note: the reason a reference to properties is passed in and then a copy is made/used
+        // instead of directly passing a copy of properties is to deal with the problem where
+        // the caller allocates and the callee deallocates, causing issues for debug builds.
+        Json::Value propsCopy = Json::Value(properties);
 
         if (!propsCopy.isObject())
         {
