@@ -8,8 +8,14 @@ their respective subdirectories.
 
 This library has been tested in Windows and OSX, and Visual Studio / Xcode
 projects are provided. For OSX, the Running from Xcode should be enough
-to build the project. For Windows, you first need to build jsoncpp (you can use
-the provided build_jsoncpp.bat script).
+to build the project. For Windows, you first need to build jsoncpp
+(you can use the provided build_jsoncpp.bat script).
 
-Example usage can be found in the mixpanelcppexample subdirectory.
+Example usage can be found in the mixpanelcppexample subdirectory with an
+Xcode and Visual Studio project.
 
+The example can be easily run in Xcode just by running the mixpanelcppexample target.
+
+For the Visual Studio project, copy the lib (and dll if building dynamically)
+from mixpanelcpp/lib/{CONFIG} to mixpanelcppexample/bin/{CONFIG}. Also, you
+will need to copy over the libcurl dll's into the same directory.
