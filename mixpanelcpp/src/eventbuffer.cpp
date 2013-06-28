@@ -117,7 +117,7 @@ namespace Mixpanel
         message["event"] = eventName;
         message["properties"] = propsCopy;
 
-        // make sure is a valid length
+        // make sure message is a valid length
         Json::FastWriter writer;
         const std::string messageString = writer.write(message);
         if (messageString.length() > MAX_SINGLE_MESSAGE_SIZE)
